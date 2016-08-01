@@ -46,13 +46,12 @@ div.primary div.icon-google-play a img{
 @media (max-width: 1024px) { 
 	body{
 		margin: 0px;
-		padding: 0px;
-		height: 600px;		
+		padding: 0px;		
 	}
 
 	div.primary{
 		background-image: url("../img/Fondo3.png");
-		height:580px;
+		height:720px;
 		border:5px solid blue;
 	}
 	div.primary div.icon-google-play{
