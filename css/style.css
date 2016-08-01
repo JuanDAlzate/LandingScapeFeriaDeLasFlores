@@ -7,7 +7,7 @@ div.primary{
 	background-size:100%;
 	background-repeat:no-repeat;
 	width: 100%;
-	height: 630px;
+	height: 850px;
 	text-align: center;
 }
 
@@ -24,19 +24,21 @@ div.primary div.icon-google-play a img{
 }
 
 /*/////////*/
-@media (max-width: 550px) and (min-width: 300px) { 
+@media (max-width: 780px) { 
 	body{
-		max-height: 250px;
+		border:1px solid blue;		
+		margin: 0px;
+		padding: 0px;
 	}
 
 	div.primary{
 		background-image: url("../img/Fondo3.png");
-		max-height: 300px;
 		border:1px solid red;
+		height: 400px;
 	}
 	div.primary div.icon-google-play{
 		position: relative;
-		top: 180px;
+		top: 250px;
 		left: 10px;	
 	    }
     div.primary div.icon-google-play a img{
@@ -46,8 +48,8 @@ div.primary div.icon-google-play a img{
 	    }
 
  }
+/*
 
- /*****/
  @media (max-width: 768px) and (min-width: 600px) { 
 	body{
 		min-height: 300px;
@@ -71,7 +73,7 @@ div.primary div.icon-google-play a img{
 
  }
 
- /**/
+
  @media  (min-width:768px) and (max-width: 1200px) { 
 	body{
 	}
