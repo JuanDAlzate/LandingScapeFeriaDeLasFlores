@@ -29,16 +29,17 @@ div.primary div.icon-google-play a img{
 	body{
 		margin: 0px;
 		padding: 0px;
-		max-height: 400px;		
+		height: 600px;		
 	}
 
 	div.primary{
 		background-image: url("../img/Fondo3.png");
-		height:550px;
+		height:580px;
+		border:1px solid blue;
 	}
 	div.primary div.icon-google-play{
 		position: relative;
-		top: 350px;
+		top: 380px;
 		left: 10px;	
 
 	    }
@@ -55,21 +56,46 @@ div.primary div.icon-google-play a img{
 	body{
 		margin: 0px;
 		padding: 0px;	
-		height: 400px;
-		border:1px solid red;
+		border:1px solid orange;
 	}
 	div.primary{
-		background-image: url("../img/Fondo3.png");
-		height: 400px;
+		background-image: url("../img/FondoSmall.png");
 		border:1px solid red;
+		height: 618px;
+
 	}
 	div.primary div.icon-google-play{
 		position: relative;
-		top: 280px;
+		top: 400px;
 		left: 10px;	
 	    }
     div.primary div.icon-google-play a img{
-		height: 20px;
+		height: 40px;
+		width: 120px;
+		display: inline-block;
+	    }
+
+ }
+
+ @media (max-width: 500px) { 
+	body{
+		margin: 0px;
+		padding: 0px;	
+		border:10px solid green;
+	}
+	div.primary{
+		background-image: url("../img/FondoSmall.png");
+		border:1px solid red;
+		height: 618px;
+
+	}
+	div.primary div.icon-google-play{
+		position: relative;
+		top: 320px;
+		left: 10px;	
+	    }
+    div.primary div.icon-google-play a img{
+		height: 30px;
 		width: 100px;
 		display: inline-block;
 	    }
