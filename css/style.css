@@ -1,6 +1,6 @@
 body{
 	margin: 0px;
-	padding: 0px;	
+	padding: 0px;
 }
 div.primary{
 	background-image: url("../img/Fondo2.png");
@@ -32,7 +32,6 @@ div.primary div.icon-google-play a img{
 		padding: 0px;		
 	}
 	div.primary{
-		border:5px solid violet;
 	}
 	div.primary div.icon-google-play{
 		position: relative;
@@ -53,7 +52,6 @@ div.primary div.icon-google-play a img{
 
 	div.primary{
 		background-image: url("../img/FondoSmall.png");
-		border:5px solid blue;
 		height: 1060px;
 	}
 	div.primary div.icon-google-play{
@@ -80,7 +78,6 @@ div.primary div.icon-google-play a img{
 	div.primary{
 		background-image: url("../img/Fondo3.png");
 		height:580px;
-		border:1px solid blue;
 	}
 	div.primary div.icon-google-play{
 		position: relative;
@@ -101,11 +98,9 @@ div.primary div.icon-google-play a img{
 	body{
 		margin: 0px;
 		padding: 0px;	
-		border:1px solid orange;
 	}
 	div.primary{
 		background-image: url("../img/FondoSmall.png");
-		border:3px solid red;
 		height: 620px;
 
 	}
@@ -126,12 +121,10 @@ div.primary div.icon-google-play a img{
 	body{
 		margin: 0px;
 		padding: 0px;	
-		border:1px solid green;
 		height: 500px;
 	}
 	div.primary{
 		background-image: url("../img/FondoSmall.png");
-		border:1px solid red;
 		height: 510px;
 
 	}
