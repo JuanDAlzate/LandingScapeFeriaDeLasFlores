@@ -50,13 +50,13 @@ div.primary div.icon-google-play a img{
 	}
 
 	div.primary{
-		background-image: url("../img/Fondo3.png");
-		height:720px;
+		background-image: url("../img/FondoSmall.png");
 		border:5px solid blue;
+		height: 1060px;
 	}
 	div.primary div.icon-google-play{
 		position: relative;
-		top: 500px;
+		top: 660px;
 		left: 10px;	
 
 	    }
