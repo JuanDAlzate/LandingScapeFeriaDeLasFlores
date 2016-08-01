@@ -23,6 +23,32 @@ div.primary div.icon-google-play a img{
 	display: inline-block;
 }
 
+/*/////////*/
+@media (max-width: 1024px) { 
+	body{
+		margin: 0px;
+		padding: 0px;
+		height: 600px;		
+	}
+
+	div.primary{
+		background-image: url("../img/Fondo3.png");
+		height:580px;
+		border:5px solid blue;
+	}
+	div.primary div.icon-google-play{
+		position: relative;
+		top: 500px;
+		left: 10px;	
+
+	    }
+    div.primary div.icon-google-play a img{
+		
+		display: inline-block;
+	    }
+
+ }
+
 
 /*/////////*/
 @media (max-width: 780px) { 
@@ -81,12 +107,13 @@ div.primary div.icon-google-play a img{
 	body{
 		margin: 0px;
 		padding: 0px;	
-		border:10px solid green;
+		border:1px solid green;
+		height: 500px;
 	}
 	div.primary{
 		background-image: url("../img/FondoSmall.png");
 		border:1px solid red;
-		height: 618px;
+		height: 500px;
 
 	}
 	div.primary div.icon-google-play{
