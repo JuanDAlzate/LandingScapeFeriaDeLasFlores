@@ -114,23 +114,23 @@ div.primary div.icon-google-play a img{
 		width: 120px;
 		display: inline-block;
 	    }
-
  }
 
  @media (max-width: 500px) { 
 	body{
 		margin: 0px;
 		padding: 0px;	
-		height: 500px;
+		height: 620px;
 	}
 	div.primary{
-		background-image: url("../img/FondoSmall.png");
-		height: 510px;
+		background-image: url("../img/FondoSmall2.png");
+		height: 620px;
+		border:1px solid red;
 
 	}
 	div.primary div.icon-google-play{
 		position: relative;
-		top: 320px;
+		top: 380px;
 		left: 10px;	
 	    }
     div.primary div.icon-google-play a img{
