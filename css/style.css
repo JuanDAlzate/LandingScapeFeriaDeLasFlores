@@ -1,7 +1,7 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	border-bottom: 1px solid white;
+
 }
 div.primary{
 	background-image: url("../img/Fondo2.png");
@@ -12,6 +12,7 @@ div.primary{
 	height: 650px;
 	text-align: center;
 	background-color: #464646;
+	border-bottom: 1px solid black;
 }
 
 div.primary div.icon-google-play{
