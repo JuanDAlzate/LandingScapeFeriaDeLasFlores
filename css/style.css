@@ -51,12 +51,12 @@ div.primary div.icon-google-play a img{
 	}
 
 	div.primary{
-		background-image: url("../img/FondoSmall.png");
-		height: 1060px;
+		background-image: url("../img/FondoSmall2.png");
+		height: 1300px;
 	}
 	div.primary div.icon-google-play{
 		position: relative;
-		top: 660px;
+		top: 800px;
 		left: 10px;	
 
 	    }
@@ -120,17 +120,16 @@ div.primary div.icon-google-play a img{
 	body{
 		margin: 0px;
 		padding: 0px;	
-		height: 620px;
+		height: 500px;
 	}
 	div.primary{
-		background-image: url("../img/FondoSmall2.png");
-		height: 620px;
-		border:1px solid red;
+		background-image: url("../img/FondoSmall.png");
+		height: 510px;
 
 	}
 	div.primary div.icon-google-play{
 		position: relative;
-		top: 380px;
+		top: 320px;
 		left: 10px;	
 	    }
     div.primary div.icon-google-play a img{
